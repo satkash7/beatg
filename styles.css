@@ -836,8 +836,7 @@ html {
 }
 
 .content {
-    position: absolute;
-    bottom: -290px; /* Ajustez cette valeur pour déplacer la section vers le haut */
+    position: absolute;/* Ajustez cette valeur pour déplacer la section vers le haut */
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
@@ -879,14 +878,6 @@ html {
 
     .stat {
         margin-bottom: 20px;
-    }
-    .content {
-        position: absolute;
-        bottom: -800px; /* Ajustez cette valeur pour déplacer la section vers le haut */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-        z-index: 2; /* Assure que la section est au-dessus de l'image de fond */
     }
     .service {
         display: grid;
