@@ -64,7 +64,7 @@ window.addEventListener('load', () => {
 // Redirection vers une page d'inscription lors du clic sur "S'inscrire"
 document.querySelectorAll('.formation button').forEach(button => {
     button.addEventListener('click', () => {
-        window.location.href = 'inscription.html'; // Rediriger vers une page d'inscription
+        window.location.href = 'A_propos.html'; // Rediriger vers une page d'inscription
     });
 });
 
