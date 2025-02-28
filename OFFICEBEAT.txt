@@ -1,0 +1,270 @@
+en tete: logo,menu de navigation,baniere ou slider (contient un diaporama )
+section introduction : titre accrocheur, description, un bouton CTA (decouvrez nos services)
+section liste des services
+section pour quoi choisir BEAT: avantage(experience en terme d'années, service client), temoignages client
+section nos realisations : Galerie d'image projets, description pour chaque projet
+section blog: article reent 
+
+exemple
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - [Nom de l'entreprise]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de l'entreprise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenue chez [Nom de l'entreprise]</h1>
+        <p>Votre partenaire de confiance pour [secteur d'activité] à Goma</p>
+        <a href="contact.html" class="cta-button">Contactez-nous</a>
+    </section>
+
+    <section class="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <h3>Service 1</h3>
+            <p>Description du service 1.</p>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <h3>Service 2</h3>
+            <p>Description du service 2.</p>
+        </div>
+        <!-- Ajoutez d'autres services ici -->
+    </section>
+
+    <section class="why-us">
+        <h2>Pourquoi nous choisir ?</h2>
+        <ul>
+            <li>Expérience de plus de 10 ans</li>
+            <li>Équipe qualifiée et dévouée</li>
+            <li>Service clientèle 24/7</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+A propos
+
+section notre histoire: titre "Qui somme nous"
+Contenu: présentation des membres par des photos, nom et role et description experience
+objectif : 
+
+icones ou images pour l'illustration de chaque valeur
+
+section notre engagement
+contenu: expliquer comment l'entreprise s'engage avec les clients(nous nous engageons a offrir un service clientele exceptionnel et a contribuer...)
+bouton CTA decouvrez nos service
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - [Nom de l'entreprise]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de l'entreprise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-us">
+        <h1>À propos de nous</h1>
+        <div class="our-story">
+            <h2>Notre histoire</h2>
+            <p>Fondée en [année], [Nom de l'entreprise] s'est imposée comme un acteur clé dans le secteur de [secteur d'activité] à Goma. Notre mission est de [décrire la mission].</p>
+            <img src="team.jpg" alt="Notre équipe">
+        </div>
+        <div class="our-team">
+            <h2>Notre équipe</h2>
+            <div class="team-member">
+                <img src="jean.jpg" alt="Jean Dupont">
+                <h3>Jean Dupont</h3>
+                <p>Directeur Général, avec plus de 15 ans d'expérience dans [domaine].</p>
+            </div>
+            <!-- Ajoutez d'autres membres de l'équipe ici -->
+        </div>
+        <div class="our-values">
+            <h2>Nos valeurs</h2>
+            <ul>
+                <li>Qualité : Nous nous engageons à fournir des services de haute qualité.</li>
+                <li>Innovation : Nous adoptons les dernières technologies.</li>
+                <li>Engagement : Nous sommes dévoués à la satisfaction de nos clients.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+Page "Contact"
+La page "Contact" est cruciale pour permettre aux clients potentiels de vous joindre facilement. Voici ce que vous pouvez inclure :
+
+1. Formulaire de contact
+Titre : "Contactez-nous"
+
+Champs du formulaire :
+
+Nom
+
+Adresse e-mail
+
+Sujet (menu déroulant avec des options comme "Demande de renseignements", "Support technique", "Devis", etc.)
+
+Message (zone de texte)
+
+Bouton d'envoi : "Envoyer" ou "Soumettre"
+
+Message de confirmation : Affichez un message de remerciement après l'envoi du formulaire.
+
+2. Informations de contact
+Adresse : L'adresse physique de votre entreprise à Goma.
+
+Téléphone : Un numéro de téléphone où les clients peuvent vous joindre.
+
+Email : Une adresse e-mail générique (ex : contact@entreprise.com).
+
+Horaires d'ouverture : Indiquez les heures d'ouverture de votre entreprise.
+
+3. Carte Google Maps
+Intégrez une carte Google Maps pour montrer l'emplacement de votre entreprise. Cela aide les clients à vous trouver facilement.
+
+4. Réseaux sociaux
+Liens : Ajoutez des icônes avec des liens vers vos profils sociaux (Facebook, LinkedIn, Instagram, etc.).
+
+Objectif : Encouragez les visiteurs à vous suivre pour rester informés de vos actualités.
+
+5. FAQ ou Section d'aide (optionnel)
+Titre : "Questions fréquentes"
+
+Contenu : Listez quelques questions courantes et leurs réponses pour aider les clients à trouver rapidement des informations. Par exemple :
+
+"Quels sont vos horaires d'ouverture ?"
+
+"Comment puis-je demander un devis ?"
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - [Nom de l'entreprise]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de l'entreprise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contactez-nous</h1>
+        <div class="contact-form">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Sujet :</label>
+                <select id="subject" name="subject">
+                    <option value="info">Demande de renseignements</option>
+                    <option value="support">Support technique</option>
+                    <option value="quote">Demande de devis</option>
+                </select>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Informations de contact</h2>
+            <p><strong>Adresse :</strong> [Adresse de l'entreprise, Goma]</p>
+            <p><strong>Téléphone :</strong> [+243 XX XX XX XX]</p>
+            <p><strong>Email :</strong> contact@entreprise.com</p>
+            <p><strong>Horaires d'ouverture :</strong> Lundi - Vendredi, 8h - 17h</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=...[lien Google Maps]" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
